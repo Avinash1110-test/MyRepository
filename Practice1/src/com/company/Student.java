@@ -20,7 +20,7 @@ public class Student {
     public String getPassword() {
         return password;
     }
-
+//command
     public static Student createStudent(String name, String id, String password) {
         return new Student(name, id, password);
     }
