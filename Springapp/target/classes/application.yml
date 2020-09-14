@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring boot yml example
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost/testdb
+    username: root
+    password: Avinash@1110
+  jpa:
+    show-sql: true
+server:
+  port: 9000
